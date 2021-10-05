@@ -1,0 +1,230 @@
+@import url(./fonts/holberton_school-icon.css);
+
+:root {
+    --color-primary: #c271ff;
+}
+
+body {
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif !important;
+}
+
+
+.btn:hover,
+.btn:active {
+    opacity: 0.9;
+}
+
+.homepage {
+    background-image: url(images/pic_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.navbar-brand {
+    transform: translateX(-1.2rem);
+}
+
+.nav-link:hover {
+    color: var(--color-primary) !important;
+}
+
+@media screen and (max-width: 575px) {
+    .homepage {
+        background-size: 110vh;
+        background-position: top;
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .display-1 {
+        font-size: 5rem !important;
+    }
+}
+@media screen and (max-width: 575px) {
+    .display-1 {
+        font-size: 3.5rem !important;
+    }
+}
+
+.section-hero {
+    margin-top: 10rem;
+}
+
+.bg-purple {
+    background-color: var(--color-primary) !important;
+}
+
+.bg-dark {
+    background-color: #071629 !important;
+}
+
+.pro-header {
+    margin-top: 10rem;
+    font-size: 2rem;
+}
+
+strong {
+    color: var(--color-primary);
+}
+
+.homepage-title {
+    min-width: 43rem;
+    min-height: 9.5rem;
+    font-size: 7.5rem;
+}
+
+.text-purple {
+    color: var(--color-primary);
+}
+
+.carousel-section {
+    height: 392px;
+    padding-left: 16rem;
+    padding-right: 15rem;
+}
+
+.text-description {
+    font-size: 14px;
+}
+
+.color-purple {
+    color: var(--color-primary);
+}
+
+.opacity {
+    opacity: 0.6;
+}
+
+.play-overlay {
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+}
+
+.carousel-control-prev {
+    margin-left: -7.5rem;
+}
+
+.carousel-control-next {
+    margin-right: -7.5rem;
+}
+
+.carousel-section-inner {
+    max-height: 160px;
+    padding: 0;
+
+}
+
+.pros-section, .card-img {
+    width: 150px;
+}
+
+.pricing {
+    background: url(images/pic_2.jpg) no-repeat top;
+    background-size: cover;
+    min-height: 80vh;
+    background-color: var(--color-dark) !important;
+}
+
+@media screen and (max-width: 575px) {
+    .pricing-header {
+        background-size: 80vh;
+        background-position: top;
+    }
+}
+
+
+.prices-grid .table {
+    table-layout: fixed;
+    margin-bottom: 0;
+    word-wrap: break-word;
+}
+
+.check-icon {
+    color: #82d24f;
+    font-size: 2rem;
+}
+
+.font-coiny {
+    font-family: "Coiny", Arial, Helvetica, sans-serif !important;
+}
+
+.courses {
+    background: url(images/pic_3.jpg) no-repeat top;
+    background-size: cover;
+    background-color: var(--color-dark) !important;
+}
+
+.search .input-group {
+    height: 46px;
+}
+
+.search .input-group-text {
+    border-style: none;
+    border-radius: 3px 3px 0px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.25);
+  }
+  
+  .search .form-control.search-text-area {
+    height: 100%;
+    border-style: none;
+    border-radius: 3px 3px 0px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.25);
+    mix-blend-mode: normal;
+  }
+  
+  .search .form-control.search-text-area::placeholder {
+    color: white;
+    opacity: 0.5;
+    font-weight: 300;
+    font-size: 1.2rem;
+  }
+  
+  .search .form-control.search-text-area:focus {
+    box-shadow: none;
+  }
+  
+  .search .drop-down-title {
+    font-size: 1rem;
+  }
+  
+  
+  .search .dropdown .btn {
+    width: 100%;
+    border-radius: 3px 3px 0px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.25);
+    mix-blend-mode: normal;
+  }
+  
+  .search .dropdown .btn span {
+    color: white;
+    font-weight: 300;
+    font-size: 1.2rem;
+  }
+  
+  .search .dropdown .btn:after {
+    color: white;
+    right: 12px;
+    top: 50%;
+    position: absolute;
+  }
+  
+  .search .btn.focus,
+  .btn:focus {
+    box-shadow: none !important;
+  }
+  
+  .search .dropdown-menu {
+    width: 100%;
+  }
+  
+  .search .dropdown-menu .dropdown-item:hover {
+    color: var(--main-color);
+    background-color: white;
+  }

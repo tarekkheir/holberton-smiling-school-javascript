@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+        <title>Holberton Smiling School - Homepage</title>
+        <meta name="description" content="Implementation of a design from scratch" />
+        <link rel="shortcut icon" href="./images/favicon.png" type="image/png">
+        <link rel="stylesheet" href="styles.css">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
+    </head>
+    <body>
+        <header class="courses">
+            <div class="container">
+                <nav class="navbar navbar-expand-sm pt-3">
+                    <div class="navbar-brand d-sm-none d-flex flex-column mx-auto align-items-center">
+                        <a href="#"><img src="images/smile_off.png" alt="Smile logo" class="logo" /></a>
+                        <a href="#"><img src="images/logo.png" alt="Smiling School Logo" class="logo mt-2" /></a>
+                    </div>
+                    <div class="navbar-brand d-none d-sm-block mx-auto">
+                        <a href="#"><img src="images/smile_off.png" alt="Smile logo" class="logo" /></a>
+                        <a href="#"><img src="images/logo.png" alt="Smiling School Logo" class="logo ml-3" /></a>
+                    </div>
+                    <div class="collapse navbar-collapse pt-0" id="navbar">
+                        <div class="navbar-nav d-sm-none">
+                            <div class="d-sm-none mx-auto mt-3">
+                                <a class="nav-link px-4 text-white text-uppercase" href="#course">Course</a>
+                                <a class="nav-link px-4 text-white text-uppercase" href="#pricing">Pricing</a>
+                                <a class="nav-link px-4 text-white text-uppercase" href="#login">Login</a>
+                            </div>
+                        </div>
+                        <div class="d-none d-sm-block ml-auto">
+                            <div class="navbar-nav">
+                                <a class="nav-link px-4 text-white text-uppercase" href="#course">Course</a>
+                                <a class="nav-link px-4 text-white text-uppercase" href="#pricing">Pricing</a>
+                                <a class="nav-link px-4 text-white text-uppercase" href="#login">Login</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="container d-flex flex-grow-1 flex-column justify-content-center align-items-center mt-4 text-white">
+                <h3 class="font-coiny font-weight-bold">
+                    « Don’t cry because it’s over.<br />
+                    <span class="text-purple">Smile</span> because it happened. »
+                </h3>
+            </div>
+        </header>
+        <main>
+            <section class="bg-purple search">
+                <div class="container">
+                    <div class="row py-4">
+                        <div class="col-12 col-sm-12 col-lg-4 box1">
+                          <span class="text-white font-weight-bold font-size-small">KEYWORDS</span>
+              
+                          <div class="input-group mb-sm-4">
+                            <div class="input-group-prepend mr-0">
+                              <span class="input-group-text holberton_school-icon-search_1 text-white"></span>
+                            </div>
+                            <input type="text" class="form-control search-text-area" aria-label="Default"
+                              placeholder="Search by keywords" />
+                          </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 box2">
+                          <span class="text-white font-weight-bold font-size-small">TOPIC</span>
+                          <div class="dropdown">
+                            <a class="btn dropdown-toggle text-left py-2" href="#" role="button" id="topicdropdown"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <span>Novice</span>
+                            </a>
+              
+                            <div class="dropdown-menu mt-0" aria-labelledby="topicdropdown">
+                              <a class="dropdown-item" href="#">Novice</a>
+                              <a class="dropdown-item" href="#">Intermediate</a>
+                              <a class="dropdown-item" href="#">Expert</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 box3">
+                          <span class="text-white font-weight-bold font-size-small">SORT BY</span>
+                          <div class="dropdown">
+                            <a class="btn dropdown-toggle text-left py-2" href="#" role="button" id="sortbydropdown"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <span>Most Popular</span>
+                            </a>
+              
+                            <div class="dropdown-menu mt-0" aria-labelledby="sortbydropdown">
+                              <a class="dropdown-item" href="#">Most Popular</a>
+                              <a class="dropdown-item" href="#">Most Recent</a>
+                              <a class="dropdown-item" href="#">Most Viewed</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </section>
+            <!-- Results section -->
+            <section class="tutorials-section py-5">
+                <div class="container">
+                    <span class="text-left text-muted">11 videos</span>
+                    <!-- Carousel -->
+                                <div class="row mt-4">
+                                    <!-- CARD 1 -->
+                                    <div class="col-12 col-sm-4 col-lg-3">
+                                        <div class="card mb-3 border-0" style="width: 16rem; height: 21rem;">
+                                            <!-- Profile Img + Play -->
+                                            <div class="position-relative">
+                                                <img class="card-img-top" src="./images/thumbnail_4.jpg" alt="Diagonale smile">
+                                                <img class="play-overlay position-absolute" src="./images/play.png" alt="Play" width="64" height="64">
+                                            </div>
+                                            <!-- Card body -->
+                                            <div class="card-body px-2">
+                                                <h5 class="card-title font-weight-bold">Diagonal Smile</h5>
+                                                <p class="card-text text-description opacity">Lorem ipsum dolor sit amet, consect <br> adipiscing elit, sed do eiusmod</p>
+                                                <!-- Phillip Massey -->
+                                                <div class="row align-items-center">
+                                                    <div class="col-2"><img class="rounded-circle" src="./images/profile_1.jpg" alt="Phillip Massey" width="30" height="30"></div>
+                                                    <div class="col-10"><span class="font-weight-bold color-purple">Phillip Massey</span></div>
+                                                </div>
+                                                <!-- Card footer -->
+                                                <div class="row py-2">
+                                                    <!-- Stars -->
+                                                    <div class="col-6">
+                                                        <div class="row">
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_off.png" alt="star_off" height="15" width="15"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- 8 min -->
+                                                    <div class="col-6 text-right"><span class="color-purple font-weight-bold pr-3">8 min</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- CARD 2 -->
+                                    <div class="col-12 col-sm-4 col-lg-3">
+                                        <div class="card mb-3 border-0" style="width: 16rem; height: 21rem;">
+                                            <!-- Profile Img + Play -->
+                                            <div class="position-relative">
+                                                <img class="card-img-top" src="./images/thumbnail_3.jpg" alt="Diagonale smile">
+                                                <img class="play-overlay position-absolute" src="./images/play.png" alt="Play" width="64" height="64">
+                                            </div>
+                                            <!-- Card body -->
+                                            <div class="card-body px-2">
+                                                <h5 class="card-title font-weight-bold">Sad Smile</h5>
+                                                <p class="card-text text-description opacity">Lorem ipsum dolor sit amet, consect <br> adipiscing elit, sed do eiusmod</p>
+                                                <!-- Phillip Massey -->
+                                                <div class="row align-items-center">
+                                                    <div class="col-2"><img class="rounded-circle" src="./images/profile_1.jpg" alt="Phillip Massey" width="30" height="30"></div>
+                                                    <div class="col-10"><span class="font-weight-bold color-purple">Phillip Massey</span></div>
+                                                </div>
+                                                <!-- Card footer -->
+                                                <div class="row py-2">
+                                                    <!-- Stars -->
+                                                    <div class="col-6">
+                                                        <div class="row">
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_off.png" alt="star_off" height="15" width="15"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- 8 min -->
+                                                    <div class="col-6 text-right"><span class="color-purple font-weight-bold pr-3">8 min</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- CARD 3 -->
+                                    <div class="col-12 col-sm-4 col-lg-3">
+                                        <div class="card mb-3 border-0" style="width: 16rem; height: 21rem;">
+                                            <!-- Profile Img + Play -->
+                                            <div class="position-relative">
+                                                <img class="card-img-top" src="./images/thumbnail_1.jpg" alt="Diagonale smile">
+                                                <img class="play-overlay position-absolute" src="./images/play.png" alt="Play" width="64" height="64">
+                                            </div>
+                                            <!-- Card body -->
+                                            <div class="card-body px-2">
+                                                <h5 class="card-title font-weight-bold">Natural Smile</h5>
+                                                <p class="card-text text-description opacity">Lorem ipsum dolor sit amet, consect <br> adipiscing elit, sed do eiusmod</p>
+                                                <!-- Phillip Massey -->
+                                                <div class="row align-items-center">
+                                                    <div class="col-2"><img class="rounded-circle" src="./images/profile_1.jpg" alt="Phillip Massey" width="30" height="30"></div>
+                                                    <div class="col-10"><span class="font-weight-bold color-purple">Phillip Massey</span></div>
+                                                </div>
+                                                <!-- Card footer -->
+                                                <div class="row py-2">
+                                                    <!-- Stars -->
+                                                    <div class="col-6">
+                                                        <div class="row">
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_off.png" alt="star_off" height="15" width="15"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- 8 min -->
+                                                    <div class="col-6 text-right"><span class="color-purple font-weight-bold pr-3">8 min</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- CARD 4 -->
+                                    <div class="d-none d-lg-flex col-lg-3">
+                                        <div class="card mb-3 border-0" style="width: 16rem; height: 21rem;">
+                                            <!-- Profile Img + Play -->
+                                            <div class="position-relative">
+                                                <img class="card-img-top" src="./images/thumbnail_2.jpg" alt="Diagonale smile">
+                                                <img class="play-overlay position-absolute" src="./images/play.png" alt="Play" width="64" height="64">
+                                            </div>
+                                            <!-- Card body -->
+                                            <div class="card-body px-2">
+                                                <h5 class="card-title font-weight-bold">Happy Smile</h5>
+                                                <p class="card-text text-description opacity">Lorem ipsum dolor sit amet, consect <br> adipiscing elit, sed do eiusmod</p>
+                                                <!-- Phillip Massey -->
+                                                <div class="row align-items-center">
+                                                    <div class="col-2"><img class="rounded-circle" src="./images/profile_1.jpg" alt="Phillip Massey" width="30" height="30"></div>
+                                                    <div class="col-10"><span class="font-weight-bold color-purple">Phillip Massey</span></div>
+                                                </div>
+                                                <!-- Card footer -->
+                                                <div class="row py-2">
+                                                    <!-- Stars -->
+                                                    <div class="col-6">
+                                                        <div class="row">
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_off.png" alt="star_off" height="15" width="15"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- 8 min -->
+                                                    <div class="col-6 text-right"><span class="color-purple font-weight-bold pr-3">8 min</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- CARD 1 -->
+                                    <div class="col-12 col-sm-4 col-lg-3">
+                                        <div class="card mb-3 border-0" style="width: 16rem; height: 21rem;">
+                                            <!-- Profile Img + Play -->
+                                            <div class="position-relative">
+                                                <img class="card-img-top" src="./images/thumbnail_4.jpg" alt="Diagonale smile">
+                                                <img class="play-overlay position-absolute" src="./images/play.png" alt="Play" width="64" height="64">
+                                            </div>
+                                            <!-- Card body -->
+                                            <div class="card-body px-2">
+                                                <h5 class="card-title font-weight-bold">Diagonal Smile</h5>
+                                                <p class="card-text text-description opacity">Lorem ipsum dolor sit amet, consect <br> adipiscing elit, sed do eiusmod</p>
+                                                <!-- Phillip Massey -->
+                                                <div class="row align-items-center">
+                                                    <div class="col-2"><img class="rounded-circle" src="./images/profile_1.jpg" alt="Phillip Massey" width="30" height="30"></div>
+                                                    <div class="col-10"><span class="font-weight-bold color-purple">Phillip Massey</span></div>
+                                                </div>
+                                                <!-- Card footer -->
+                                                <div class="row py-2">
+                                                    <!-- Stars -->
+                                                    <div class="col-6">
+                                                        <div class="row">
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_off.png" alt="star_off" height="15" width="15"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- 8 min -->
+                                                    <div class="col-6 text-right"><span class="color-purple font-weight-bold pr-3">8 min</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- CARD 2 -->
+                                    <div class="col-12 col-sm-4 col-lg-3">
+                                        <div class="card mb-3 border-0" style="width: 16rem; height: 21rem;">
+                                            <!-- Profile Img + Play -->
+                                            <div class="position-relative">
+                                                <img class="card-img-top" src="./images/thumbnail_3.jpg" alt="Diagonale smile">
+                                                <img class="play-overlay position-absolute" src="./images/play.png" alt="Play" width="64" height="64">
+                                            </div>
+                                            <!-- Card body -->
+                                            <div class="card-body px-2">
+                                                <h5 class="card-title font-weight-bold">Sad Smile</h5>
+                                                <p class="card-text text-description opacity">Lorem ipsum dolor sit amet, consect <br> adipiscing elit, sed do eiusmod</p>
+                                                <!-- Phillip Massey -->
+                                                <div class="row align-items-center">
+                                                    <div class="col-2"><img class="rounded-circle" src="./images/profile_1.jpg" alt="Phillip Massey" width="30" height="30"></div>
+                                                    <div class="col-10"><span class="font-weight-bold color-purple">Phillip Massey</span></div>
+                                                </div>
+                                                <!-- Card footer -->
+                                                <div class="row py-2">
+                                                    <!-- Stars -->
+                                                    <div class="col-6">
+                                                        <div class="row">
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_off.png" alt="star_off" height="15" width="15"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- 8 min -->
+                                                    <div class="col-6 text-right"><span class="color-purple font-weight-bold pr-3">8 min</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- CARD 3 -->
+                                    <div class="col-12 col-sm-4 col-lg-3">
+                                        <div class="card mb-3 border-0" style="width: 16rem; height: 21rem;">
+                                            <!-- Profile Img + Play -->
+                                            <div class="position-relative">
+                                                <img class="card-img-top" src="./images/thumbnail_1.jpg" alt="Diagonale smile">
+                                                <img class="play-overlay position-absolute" src="./images/play.png" alt="Play" width="64" height="64">
+                                            </div>
+                                            <!-- Card body -->
+                                            <div class="card-body px-2">
+                                                <h5 class="card-title font-weight-bold">Natural Smile</h5>
+                                                <p class="card-text text-description opacity">Lorem ipsum dolor sit amet, consect <br> adipiscing elit, sed do eiusmod</p>
+                                                <!-- Phillip Massey -->
+                                                <div class="row align-items-center">
+                                                    <div class="col-2"><img class="rounded-circle" src="./images/profile_1.jpg" alt="Phillip Massey" width="30" height="30"></div>
+                                                    <div class="col-10"><span class="font-weight-bold color-purple">Phillip Massey</span></div>
+                                                </div>
+                                                <!-- Card footer -->
+                                                <div class="row py-2">
+                                                    <!-- Stars -->
+                                                    <div class="col-6">
+                                                        <div class="row">
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_off.png" alt="star_off" height="15" width="15"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- 8 min -->
+                                                    <div class="col-6 text-right"><span class="color-purple font-weight-bold pr-3">8 min</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- CARD 4 -->
+                                    <div class="d-none d-lg-flex col-lg-3">
+                                        <div class="card mb-3 border-0" style="width: 16rem; height: 21rem;">
+                                            <!-- Profile Img + Play -->
+                                            <div class="position-relative">
+                                                <img class="card-img-top" src="./images/thumbnail_2.jpg" alt="Diagonale smile">
+                                                <img class="play-overlay position-absolute" src="./images/play.png" alt="Play" width="64" height="64">
+                                            </div>
+                                            <!-- Card body -->
+                                            <div class="card-body px-2">
+                                                <h5 class="card-title font-weight-bold">Happy Smile</h5>
+                                                <p class="card-text text-description opacity">Lorem ipsum dolor sit amet, consect <br> adipiscing elit, sed do eiusmod</p>
+                                                <!-- Phillip Massey -->
+                                                <div class="row align-items-center">
+                                                    <div class="col-2"><img class="rounded-circle" src="./images/profile_1.jpg" alt="Phillip Massey" width="30" height="30"></div>
+                                                    <div class="col-10"><span class="font-weight-bold color-purple">Phillip Massey</span></div>
+                                                </div>
+                                                <!-- Card footer -->
+                                                <div class="row py-2">
+                                                    <!-- Stars -->
+                                                    <div class="col-6">
+                                                        <div class="row">
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_off.png" alt="star_off" height="15" width="15"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- 8 min -->
+                                                    <div class="col-6 text-right"><span class="color-purple font-weight-bold pr-3">8 min</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- CARD 1 -->
+                                    <div class="col-12 col-sm-4 col-lg-3">
+                                        <div class="card mb-3 border-0" style="width: 16rem; height: 21rem;">
+                                            <!-- Profile Img + Play -->
+                                            <div class="position-relative">
+                                                <img class="card-img-top" src="./images/thumbnail_4.jpg" alt="Diagonale smile">
+                                                <img class="play-overlay position-absolute" src="./images/play.png" alt="Play" width="64" height="64">
+                                            </div>
+                                            <!-- Card body -->
+                                            <div class="card-body px-2">
+                                                <h5 class="card-title font-weight-bold">Diagonal Smile</h5>
+                                                <p class="card-text text-description opacity">Lorem ipsum dolor sit amet, consect <br> adipiscing elit, sed do eiusmod</p>
+                                                <!-- Phillip Massey -->
+                                                <div class="row align-items-center">
+                                                    <div class="col-2"><img class="rounded-circle" src="./images/profile_1.jpg" alt="Phillip Massey" width="30" height="30"></div>
+                                                    <div class="col-10"><span class="font-weight-bold color-purple">Phillip Massey</span></div>
+                                                </div>
+                                                <!-- Card footer -->
+                                                <div class="row py-2">
+                                                    <!-- Stars -->
+                                                    <div class="col-6">
+                                                        <div class="row">
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_off.png" alt="star_off" height="15" width="15"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- 8 min -->
+                                                    <div class="col-6 text-right"><span class="color-purple font-weight-bold pr-3">8 min</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- CARD 2 -->
+                                    <div class="col-12 col-sm-4 col-lg-3">
+                                        <div class="card mb-3 border-0" style="width: 16rem; height: 21rem;">
+                                            <!-- Profile Img + Play -->
+                                            <div class="position-relative">
+                                                <img class="card-img-top" src="./images/thumbnail_3.jpg" alt="Diagonale smile">
+                                                <img class="play-overlay position-absolute" src="./images/play.png" alt="Play" width="64" height="64">
+                                            </div>
+                                            <!-- Card body -->
+                                            <div class="card-body px-2">
+                                                <h5 class="card-title font-weight-bold">Sad Smile</h5>
+                                                <p class="card-text text-description opacity">Lorem ipsum dolor sit amet, consect <br> adipiscing elit, sed do eiusmod</p>
+                                                <!-- Phillip Massey -->
+                                                <div class="row align-items-center">
+                                                    <div class="col-2"><img class="rounded-circle" src="./images/profile_1.jpg" alt="Phillip Massey" width="30" height="30"></div>
+                                                    <div class="col-10"><span class="font-weight-bold color-purple">Phillip Massey</span></div>
+                                                </div>
+                                                <!-- Card footer -->
+                                                <div class="row py-2">
+                                                    <!-- Stars -->
+                                                    <div class="col-6">
+                                                        <div class="row">
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_off.png" alt="star_off" height="15" width="15"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- 8 min -->
+                                                    <div class="col-6 text-right"><span class="color-purple font-weight-bold pr-3">8 min</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- CARD 3 -->
+                                    <div class="col-12 col-sm-4 col-lg-3">
+                                        <div class="card mb-3 border-0" style="width: 16rem; height: 21rem;">
+                                            <!-- Profile Img + Play -->
+                                            <div class="position-relative">
+                                                <img class="card-img-top" src="./images/thumbnail_1.jpg" alt="Diagonale smile">
+                                                <img class="play-overlay position-absolute" src="./images/play.png" alt="Play" width="64" height="64">
+                                            </div>
+                                            <!-- Card body -->
+                                            <div class="card-body px-2">
+                                                <h5 class="card-title font-weight-bold">Natural Smile</h5>
+                                                <p class="card-text text-description opacity">Lorem ipsum dolor sit amet, consect <br> adipiscing elit, sed do eiusmod</p>
+                                                <!-- Phillip Massey -->
+                                                <div class="row align-items-center">
+                                                    <div class="col-2"><img class="rounded-circle" src="./images/profile_1.jpg" alt="Phillip Massey" width="30" height="30"></div>
+                                                    <div class="col-10"><span class="font-weight-bold color-purple">Phillip Massey</span></div>
+                                                </div>
+                                                <!-- Card footer -->
+                                                <div class="row py-2">
+                                                    <!-- Stars -->
+                                                    <div class="col-6">
+                                                        <div class="row">
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_on.png" alt="star" height="15" width="15"></div>
+                                                            <div class="col-2 pr-0"><img src="./images/star_off.png" alt="star_off" height="15" width="15"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- 8 min -->
+                                                    <div class="col-6 text-right"><span class="color-purple font-weight-bold pr-3">8 min</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <footer class="footer bg-dark pb-4 d-flex align-items-center justify-content-center">
+            <div class="container">
+                <div class="row d-flex align-items-center flex-column flex-sm-row pt-5">
+                    <div class="col footer-item d-flex justify-content-center justify-content-sm-start">
+                        <div class="footer-logo">
+                            <img src="images/smile_off.png" alt="navbar-logo" width="37" class="mr-4 mb-3 mb-sm-0 mr-sm-3 img-fluid" />
+                            <img src="images/logo.png" alt="navbar-logo-text" width="114" class="mr-4 img-fluid" />
+                        </div>
+                    </div>
+        
+                    <div class="col d-flex align-items-center align-items-sm-end justify-content-center justify-content-sm-end py-5">
+                        <div class="social">
+                            <ul class="social nav">
+                                <li class="social-item facebook-icon pr-2">
+                                    <a href="https://www.facebook.com/HolbertonSchool/" class="social-link" aria-label="Facebook"><span class="holberton_school-icon-ic_facebook"></span></a>
+                                </li>
+                                <li class="social-item twitter-icon px-2">
+                                    <a href="https://twitter.com/holbertonschool" class="social-link" aria-label="Twitter"><span class="holberton_school-icon-ic_twitter"></span></a>
+                                </li>
+                                <li class="social-item instagram-icon pl-2">
+                                    <a href="https://www.instagram.com/holbertonschool/" class="social-link" aria-label="Instagram"><span class="holberton_school-icon-ic_instagram"></span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <div class="text-muted trademark">
+                        <span>©smileschool 2020</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
